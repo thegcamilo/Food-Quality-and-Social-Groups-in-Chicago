@@ -23,7 +23,6 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 * Dataset with general information about Chicago: https://data.cityofchicago.org/Health-Human-Services/Chicago-poverty-and-crime/fwns-pcmk
 
 # A List of Internal Milestones Up Until Project Milestone 2
-* October 29th - Git setup
 * November 1st - Document all datasets
 * November 6th - Code the map plotting pipeline
 * November 13th - Clean data from all datasets 
