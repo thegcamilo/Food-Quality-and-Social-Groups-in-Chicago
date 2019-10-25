@@ -23,11 +23,12 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 * Dataset with general information about Chicago: https://data.cityofchicago.org/Health-Human-Services/Chicago-poverty-and-crime/fwns-pcmk
 
 # A List of Internal Milestones Up Until Project Milestone 2
-* November 1st - Document of the data available that will be used during the project
-* November 6th - Data cleaning of all datasets 
-* November 13th - Correlation between food quality and supporting data
-* November 19th - Map plotting pipeline written
-* November 22nd - Basic plots for visualization of data and correlation
+* October 29th - Git setup
+* November 1st - Document all datasets
+* November 6th - Code the map plotting pipeline
+* November 13th - Clean data from all datasets 
+* November 18th - Calculate correlation between food quality and supporting data
+* November 22nd - Plot results of data analysis
 * November 25th - Milestone 2 report
 
 
