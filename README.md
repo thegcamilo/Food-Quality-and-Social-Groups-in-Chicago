@@ -22,7 +22,10 @@ We want to analyse if there is difference between the quality of food in differe
 * Race: http://www.justicemap.org/index.php?gsLayer=plural&gfLon=-87.65542953&gfLat=41.8725146&giZoom=13&
 An SQL database containing the ethnicity of the population in percentage per each block of the US. What we need is just a small part of the data contained, the first thing to do with this data will be a filtering to extract the information for the city of Chicago and use this data to check if there is a quality bias based on the type of population that live in some particular block. 
 * Crime: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+A dataset that reflects reported incidents of crime that occured in the city of Chicago. For each crime, we have access to the location and the information about whether it led to an arrest or not. We want to use this dataset to see if the crime rate by community area has an impact on the quality of food in that same area. The dataset can be exported to a .CSV format and thus be exploited easily using Pandas.
 * Dataset with general information about Chicago: https://data.cityofchicago.org/Health-Human-Services/Chicago-poverty-and-crime/fwns-pcmk
+A dataset that describes public health significance by community area. It is indeed an interesting dataset for our project as it offers informations about educational level and unemloyment rates in addition to what we already have. We might find interesting correlations between these factors and quality food as well.
+The data can be exported to .CSV format.
 
 # A List of Internal Milestones Up Until Project Milestone 2
 * November 1st - Document all datasets
