@@ -19,6 +19,11 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 * GeoJson: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
 We want to analyse if there is difference between the quality of food in different areas of the city of Chicago, first we need a smart division of the city. This work was already done by the city and we can use it importing the GeoJSON file that they provide using the library Folium.
 * Income: https://data.cityofchicago.org/Health-Human-Services/Per-Capita-Income/r6ad-wvtk
+A dataset containing 6 socioeconomic indicators for community areas of Chicago. These include:
+Unemployment, education, per capita income level, poverty, crowded housing, dependency. An economic hardship
+index resulting from a combination of the 6 variables is also available in the dataset. Higher hardship index scores indicate
+worse economic conditions. We may want to use any combinations of these columns to check if there are correlations between
+failed food inspections and higher hardship indexes/lower income.
 * Race: http://www.justicemap.org/index.php?gsLayer=plural&gfLon=-87.65542953&gfLat=41.8725146&giZoom=13&
 An SQL database containing the ethnicity of the population in percentage per each block of the US. What we need is just a small part of the data contained, the first thing to do with this data will be a filtering to extract the information for the city of Chicago and use this data to check if there is a quality bias based on the type of population that live in some particular block. 
 * Crime: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
