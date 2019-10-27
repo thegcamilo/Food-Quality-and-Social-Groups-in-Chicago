@@ -19,7 +19,7 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 * GeoJson: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
 We want to analyse if there is difference between the quality of food in different areas of the city of Chicago, first we need a smart division of the city. This work was already done by the city and we can use it importing the GeoJSON file that they provide using the library Folium.
 * Income: https://data.cityofchicago.org/Health-Human-Services/Per-Capita-Income/r6ad-wvtk
-A dataset containing 6 socioeconomic indicators for community areas of Chicago. These include:
+A dataset in CSV format containing 6 socioeconomic indicators for community areas of Chicago. These include:
 Unemployment, education, per capita income level, poverty, crowded housing, dependency. An economic hardship
 index resulting from a combination of the 6 variables is also available in the dataset. Higher hardship index scores indicate
 worse economic conditions. We may want to use any combinations of these columns to check if there are correlations between
