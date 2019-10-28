@@ -16,21 +16,25 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 # Dataset
 <!-- List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant. -->
 * Food Inspection: https://www.kaggle.com/chicago/chicago-food-inspections
+  * Main dataset of our project. It contains data of food inspection in Chicago, their results, location, and risk.
 * GeoJson: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
-We want to analyse if there is difference between the quality of food in different areas of the city of Chicago, first we need a smart division of the city. This work was already done by the city and we can use it importing the GeoJSON file that they provide using the library Folium.
-* Income: https://data.cityofchicago.org/Health-Human-Services/Per-Capita-Income/r6ad-wvtk
-A dataset in CSV format containing 6 socioeconomic indicators for community areas of Chicago. These include:
-Unemployment, education, per capita income level, poverty, crowded housing, dependency. An economic hardship
-index resulting from a combination of the 6 variables is also available in the dataset. Higher hardship index scores indicate
-worse economic conditions. We may want to use any combinations of these columns to check if there are correlations between
-failed food inspections and higher hardship indexes/lower income.
+  * We want to analyze if there is any difference between the quality of food in different areas of the city of Chicago. For that, we need a division of the city. This work was already done by the city and we can use it by importing the GeoJSON file that they provide using the library Folium.
+* Socioeconomic factors: https://data.cityofchicago.org/Health-Human-Services/Per-Capita-Income/r6ad-wvtk
+  * A dataset in CSV format containing 6 socioeconomic indicators for community areas of Chicago. These include:
+    * Unemployment
+    * Education
+    * Per capita income level
+    * Poverty level
+    * Crowded housing percentage
+    * Age distribution
+    * Economic hardship index, a combination of the other variables. Higher hardship index scores indicate worse economic conditions. 
+  * We may want to use any combinations of these columns to check if there are correlations between failed food inspections and higher hardship indexes/lower income/etc.
 * Race: http://www.justicemap.org/index.php?gsLayer=plural&gfLon=-87.65542953&gfLat=41.8725146&giZoom=13&
-An SQL database containing the ethnicity of the population in percentage per each block of the US. What we need is just a small part of the data contained, the first thing to do with this data will be a filtering to extract the information for the city of Chicago and use this data to check if there is a quality bias based on the type of population that live in some particular block. 
+  * An SQL database containing the ethnicity of the population in percentage per each block of the US. We only need is a small part of the dataset, more specifically the city of Chicago. The first thing to do with this data will be a filtering to extract the information for the city of Chicago and use this data to check if there is a food quality bias based on the race of the habitants of particular neighbourhood. 
 * Crime: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
-A dataset that reflects reported incidents of crime that occured in the city of Chicago. For each crime, we have access to the location and the information about whether it led to an arrest or not. We want to use this dataset to see if the crime rate by community area has an impact on the quality of food in that same area. The dataset can be exported to a .CSV format and thus be exploited easily using Pandas.
+  * A dataset that reflects reported incidents of crime that occured in the city of Chicago. For each crime, we have access to the (approximate) location and the information about whether it led to an arrest or not. We want to use this dataset to see if the crime rate by community area is correlated with the quality of food in that same area. The dataset can be exported in .CSV format and thus be analyzed easily using Pandas.
 * Dataset with general information about Chicago: https://data.cityofchicago.org/Health-Human-Services/Chicago-poverty-and-crime/fwns-pcmk
-A dataset that describes public health significance by community area. It is indeed an interesting dataset for our project as it offers informations about educational level and unemloyment rates in addition to what we already have. We might find interesting correlations between these factors and quality food as well.
-The data can be exported to .CSV format.
+  * A dataset that describes public health significance by community area. It is indeed an interesting dataset for our project as it offers informations about educational level and unemployment rates in addition to what we already have. We might find interesting correlations between these factors and quality food as well. The data can be exported to a .CSV file.
 
 # A List of Internal Milestones Up Until Project Milestone 2
 * November 1st - Document all datasets
