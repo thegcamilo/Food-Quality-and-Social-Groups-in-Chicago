@@ -47,7 +47,7 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 * November 25th - Milestone 2 report
 
 # Milestone 2 report :
-* We used the geojson library to plot different maps of Chicago in respect to different criterias. These maps in html format can be accessed in the folder "maps" and visualized easily in the browser. Moreover, we studied the correlation between the four datasets : some were concluding, while others need to be taken a closer look, using other tools.
+We used the geojson library to plot different maps of Chicago in respect to different criterias. These maps in html format can be accessed in the folder "maps" and visualized easily in the browser. Moreover, we studied the correlation between the four datasets : some were concluding, while others need to be taken a closer look, using other tools.
 
 # Questions for TAs
 Add here some questions you have for us, in general or project-specific.
