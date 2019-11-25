@@ -17,7 +17,7 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 <!-- List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant. -->
 * Food Inspection: https://www.kaggle.com/chicago/chicago-food-inspections
   * Main dataset of our project. It contains information about food inspections in Chicago, their results, location, and risk, for example.
-* GeoJson: *
+* GeoJson: 
     - By neighbourhoods : https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
     - By community areas : https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6/data
   * We want to analyze if there is any difference between the quality of food in different areas of the city of Chicago. For that, we need a division of the city. This work was already done by the city and we can use it by importing the GeoJSON file that they provide using the library Folium.
