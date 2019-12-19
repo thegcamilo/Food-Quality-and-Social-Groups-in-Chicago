@@ -1,4 +1,6 @@
-# What Is the Food Quality of Different Chicago Social Groups?
+# Analyzing Quality of Food Across Economic and Racial Groups in Chicago
+
+## Data Story: https://thegcamilo.github.io/foodinspectionschicago/
 
 # Abstract
 There is a large variation across the quality of food available across the world due to economic and cultural variations. In order to analyze the inequality of quality of food across different social and economic groups, we aim to inspect the correlation between food quality and other social and economic factors, such as income level and race, in a local level. By using data on food inspections in Chicago and supporting data, we aim to understand how inequalities found in the city are also instituted in the food available to different communities.
@@ -48,6 +50,13 @@ With our work, we plan to infer whether neglected groups are also left with lowe
 
 # Milestone 2 Report
 We used the geojson library to plot different maps of Chicago in respect to different criterias. These maps in html format can be accessed in the folder "maps" and visualized easily in the browser. Moreover, we studied the correlation between the four datasets: some were concluding, while others need to be taken a closer look, using other tools.
+
+# Team Members
+* Gabriel Lima: Problem formulation, initial data analysis and plotting, revisions, data story, poster, and presentation 
+* Kenyu Kobayashi: Problem formulation, dataset exploration, map plotting, poster
+* Murat Topak: Problem formulation, dataset exploration, map plotting, poster
+* Niko Masiero: Problem formulation, deeper data analysis, initial plotting, time-series analysis, poster
+
 
 # Questions for TAs
 Add here some questions you have for us, in general or project-specific.
