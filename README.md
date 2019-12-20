@@ -2,6 +2,8 @@
 
 ## Data Story: https://thegcamilo.github.io/foodinspectionschicago/
 
+#### For grading, please see *NKMG_Milestone_3.ipynb*.
+
 # Abstract
 There is a large variation across the quality of food available across the world due to economic and cultural variations. In order to analyze the inequality of quality of food across different social and economic groups, we aim to inspect the correlation between food quality and other social and economic factors, such as income level and race, in a local level. By using data on food inspections in Chicago and supporting data, we aim to understand how inequalities found in the city are also instituted in the food available to different communities.
 With our work, we plan to infer whether neglected groups are also left with lower quality food, which could lead to various diseases and social isolation. With our results, we aim to raise awareness to the distribution of food across a global metropolis, showing whether prejudice can also be found in the food available to Chicago citizens.
